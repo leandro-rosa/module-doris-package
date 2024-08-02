@@ -1,4 +1,45 @@
-# Doris Module Configuration
+# Module Doris Package
+
+Este pacote agrupa os módulos `module-core`, `module-doris-catalog-integrator`, e `module-doris-widget`, facilitando sua instalação e uso em projetos PHP.
+
+## Instalação
+
+Para instalar este pacote em seu projeto, siga as etapas abaixo:
+
+1. **Adicionar o repositório ao seu `composer.json`**
+
+   No seu projeto, adicione o repositório `module-doris-package` ao arquivo `composer.json`:
+
+   ```json
+   {
+       "repositories": [
+           {
+               "type": "vcs",
+               "url": "https://github.com/leandro-rosa/module-doris-package"
+           }
+       ],
+       "require": {
+           "leandro-rosa/module-doris-package": "dev-main"
+       }
+   }
+   ```
+
+2. **Instalar o pacote usando Composer**
+
+   Execute o comando abaixo para instalar o pacote e suas dependências:
+
+   ```bash
+   composer install
+   ```
+
+   Isso irá baixar o `module-doris-package` e seus módulos dependentes.
+3. **Instalar os modulos no magento**
+
+Execute o comando abaixo para instalar os modulos no magento:
+
+```bash
+bin/magento setup:upgrade
+```
 
 ## Overview
 
