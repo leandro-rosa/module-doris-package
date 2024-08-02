@@ -10,43 +10,43 @@ This document provides a step-by-step guide on configuring the Doris modules in 
 
 Go to `Stores -> Configuration` in the Magento admin panel.
 
-![Step 1](./screenshots/Screenshot_from_2024-07-30_08-14-50.png)
+![Step 1](./images/Screenshot_from_2024-07-30_08-14-50.png)
 
 ### Step 2: Access Doris Module Configuration
 
 Under `Configuration`, scroll down to find the `DORIS` section. Click on `Setup`.
 
-![Step 2](./screenshots/Screenshot_from_2024-07-30_08-14-59.png)
+![Step 2](./images/Screenshot_from_2024-07-30_08-14-59.png)
 
 ### Step 3: Configure Doris API Keys
 
 Enter the `Doris API Key` and `Doris Secret Key` provided to you.
 
-![Step 3](./screenshots/Screenshot_from_2024-07-30_08-15-08.png)
+![Step 3](./images/Screenshot_from_2024-07-30_08-15-08.png)
 
 ### Step 4: Configure Catalog Integrator
 
 Under the `Catalog Integrator` section, map the website categories to the Doris categories.
 
-![Step 4](./screenshots/Screenshot_from_2024-07-30_08-15-18.png)
+![Step 4](./images/Screenshot_from_2024-07-30_08-15-18.png)
 
 ### Step 5: Configure Doris Widget
 
 In the `Doris Widget` section, configure the widget settings such as `Enabled`, `Color`, and `Splash Image`.
 
-![Step 5](./screenshots/Screenshot_from_2024-07-30_08-15-31.png)
+![Step 5](./images/Screenshot_from_2024-07-30_08-15-31.png)
 
 ### Step 6: Category Association
 
 Map the website categories to the Doris categories.
 
-![Step 6](./screenshots/Screenshot_from_2024-07-30_08-15-40.png)
+![Step 6](./images/Screenshot_from_2024-07-30_08-15-40.png)
 
 ### Step 7: Select Website Scope
 
 To integrate a specific website, select the desired website from the `Scope` dropdown.
 
-![Step 7](./screenshots/Screenshot_from_2024-07-30_08-15-57.png)
+![Step 7](./images/Screenshot_from_2024-07-30_08-15-57.png)
 
 ### Step 8: Start Integration
 
