@@ -1,0 +1,26 @@
+{
+    "name": "leandro-rosa/module-doris-package",
+    "description": "Pacote que agrupa os módulos core, catalog integrator, e widget.",
+    "type": "library",
+    "require": {
+        "leandro-rosa/module-core": "dev-main",
+        "leandro-rosa/module-doris-catalog-integrator": "dev-main",
+        "leandro-rosa/module-doris-widget": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leandro-rosa/module-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/leandro-rosa/module-doris-catalog-integrator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/leandro-rosa/module-doris-widget"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
